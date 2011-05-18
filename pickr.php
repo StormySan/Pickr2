@@ -1,6 +1,6 @@
 <?php
 
-if (empty($_GET['x']) && empty($_GET['y'])) {
+if (!isset($_GET['x']) && !isset($_GET['y'])) {
     exit;
 }
 
