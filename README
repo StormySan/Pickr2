@@ -1,0 +1,30 @@
+Pickr2 v1.0 jQuery plugin
+
+Usage:
+$(image element).pickr2({class: class of inputs, file: callback file});
+
+Copyright (c) 2011 Pale Purple Ltd
+http://www.palepurple.co.uk
+
+Blogpost: http://stormysan.com/2011/05/pickr2-jquery-colour-selector/
+Github: https://github.com/StormySan/Pickr2
+
+Original Pickr code Copyright (c) Muffin Research Labs
+http://www.muffinresearch.co.uk/lab/javascript/pickr/
+
+Pickr2 is free software; you can redistribute it and/or modify it 
+under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+Pickr2 is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+If you are not able to view the LICENSE, which should
+always be possible within a valid and working Pickr release,
+please write to the Free Software Foundation, Inc.,
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+to get a copy of the GNU General Public License or to report a
+possible license violation.

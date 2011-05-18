@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Pickr2 - jQuery Colour Selector from Image - Demo</title>
+        <link rel="stylesheet" media="screen" type="text/css" href="jquery.pickr2.css" />
+        <script language="javaScript" type="text/javascript" src="jquery-1.4.4.min.js"></script>
+        <script language="javaScript" type="text/javascript" src="jquery.pickr2.js"></script>
+        <style type="text/css">
+            #main {
+                width: 800px;
+            }
+            #pickr2 {
+                float: right;
+                cursor: crosshair;
+            }
+            .pickrs {
+                width: 100px;
+                height: 50px;
+                float: left;
+                clear: left;
+                cursor: pointer;
+            }
+        </style>
+        <script language="javascript" type="text/javascript">
+            $(document).ready(function(){
+                $('#pickr2').pickr2();
+            });
+        </script>
+    </head>
+<body>
+    <div id="main">
+        <p>Pickr2 jQuery plugin demo. Blogpost: <a href="http://stormysan.com/2011/05/pickr2-jquery-colour-selector/" title="Pickr2 jQuery Colour Selector">http://stormysan.com/2011/05/pickr2-jquery-colour-selector/</a></p>
+        <p><a href="https://github.com/StormySan/Pickr2" alt="Github : Pickr2">Download the source from Github - https://github.com/StormySan/Pickr2</a></p>
+        <p>Inspired by the original Pickr beta - <a href="http://muffinresearch.co.uk/code/javascript/pickr/" title="Pickr beta">http://muffinresearch.co.uk/code/javascript/pickr/</a></p>
+        <p>Image credit: <a href="http://www.publicdomainpictures.net/view-image.php?image=9045&picture=lightning-tree">Lightning Tree</a> by Jon Luty</p>
+        <div id="image">
+            <img src="lightning-tree.jpg" alt="example" id="pickr2" />
+        </div>
+        <div id="selectors">
+            <input name="pick1" class="pickrs" />
+            <input name="pick2" class="pickrs" />
+            <input name="pick3" class="pickrs" />
+            <input name="pick4" class="pickrs" />
+        </div>
+    </div>
+</body>
+</html>
